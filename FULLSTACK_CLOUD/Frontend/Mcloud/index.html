@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo logo">
+                        <img src="./img/logo.png" alt="Mcloud" class="logo__img">
+                    </div>
+
+                    <button class="header__burger burger">
+                        <span></span>
+                    </button>
+
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link menu__link_active">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">особенности</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                            <li class="menu__item menu__item_s"><a href="#" class="menu__link">Поддержка</a></li>
+                            <li class="menu__itemAuth">
+                                <div class="auth__links">
+                                    <a href="./pages/login.html" class="auth__login login">Войти</a>
+                                    <a href="./pages/reg.html" class="auth__reg reg">Регистрация</a>
+                                </div>
+                            </li>
+                            <li class="menu__itemAuth">
+                                <button class="auth__settings">
+                                    <img src="./img/android-settings.svg" class="auth_img" alt="шестеренка">
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- <div class="header__auth auth">
+                        <div class="auth__content">
+                            <div class="auth__links">
+                                <a href="#" class="auth__login login">Войти</a>
+                                <a href="" class="auth__reg reg">Регистрация</a>
+                            </div>
+                            <button class="auth__settings">
+                                <img src="./img/android-settings.svg" class="auth_img" alt="шестеренка">
+                            </button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="promo">
+                <div class="container">
+                    <div class="promo__content">
+                        <div class="promo__item">
+                            <h1 class="promo__title">Облачное хранилище</h1>
+                            <p class="promo__text">
+                                <span>Наша цель</span> – обеспечить вам надежный и удобный сервис облачного хранилища.
+                                Присоединяйтесь к нам уже сегодня и начните защищать свои файлы с помощью нашего
+                                сервиса!
+                            </p>
+                        </div>
+                        <div class="promo__item">
+                            <div class="promo__pic">
+                                <img src="./img/promo.png" class="promo_img" alt="картинка">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="categ">
+                <div class="container">
+                    <div class="categ__content">
+                        <div class="categ__item">
+                            <h2 class="categ__title accentBlue">Безопасность</h2>
+                            <p class="categ__text accentOrange">
+                                Мы используем современные<br>методы защиты
+                            </p>
+                        </div>
+                        <div class="categ__item">
+                            <h2 class="categ__title">Открытый код</h2>
+                            <p class="categ__text">
+                                Мы ничего не прячем от наших<br>клиентов
+                            </p>
+                        </div>
+                        <div class="categ__item">
+                            <h2 class="categ__title">Доступность</h2>
+                            <p class="categ__text">
+                                доступ к вашим файлам в любое<br>время и из любого места
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="container">
+                    <h2 class="features__title title">особенности</h2>
+                    <h3 class="features__subtitle subtitle">Мы гарантируем</h3>
+                    <div class="features__content">
+                        <div class="features__item">
+                            <img src="./img/1.svg" alt="Легко настроить" class="features__img">
+                            <h4 class="features__itemTitle">Легко настроить</h4>
+                            <p class="features__text">
+                                Наш интерфейс дружественный и интуитивно понятный, что позволяет вам легко управлять
+                                вашими файлами.
+                            </p>
+                        </div>
+                        <div class="features__item">
+                            <img src="./img/3.svg" alt="Безопасность" class="features__img">
+                            <h4 class="features__itemTitle">Безопасность</h4>
+                            <p class="features__text">
+                                Мы используем передовые технологии шифрования данных и многоуровневые меры защиты, чтобы
+                                гарантировать, что ваши файлы остаются конфиденциальными и доступными только вам.
+                            </p>
+                        </div>
+                        <div class="features__item">
+                            <img src="./img/2.svg" alt=">Поддержка 24/7" class="features__img">
+                            <h4 class="features__itemTitle">Поддержка 24/7</h4>
+                            <p class="features__text">
+                                Если у вас возникнут вопросы или вам потребуется помощь, наша команда поддержки всегда
+                                готова помочь вам. Свяжитесь с нами по электронной почте или через нашу онлайн-чат
+                                поддержки.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="about__content">
+                        <div class="about__item">
+                            <img src="./img/Feature1.png" class="about__img" alt="">
+                        </div>
+                        <div class="about__item">
+                            <h2 class="about__title title">О нас</h2>
+                            <h3 class="about__subtitle subtitle">Добро пожаловать в наше 
+                                облачное хранилище!</h3>
+                            <p class="about__text">
+                                Мы предлагаем надежное и удобное решение для хранения и обмена вашими файлами в облаке.
+                                Независимо от того, являетесь ли вы студентом, профессионалом, фрилансером или
+                                бизнесменом, наше облачное хранилище поможет вам организовать и защитить вашу цифровую
+                                жизнь.
+                            </p>
+                            <a href="./pages/reg.html" class="about__reg">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <h2 class="footer__title">Чего же ты ждешь?</h2>
+                    <a href="./pages/reg.html" class="footer__reg">Начать сейчас</a>
+                </div>
+                <div class="footer__bot">
+                    <div class="footer__logo logo">
+                        <img src="./img/logo.png" alt="Mcloud" class="logo__img">
+                    </div>
+                    <p class="footer__copy">© IT - company || Murvalyan</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

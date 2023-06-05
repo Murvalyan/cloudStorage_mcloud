@@ -1,0 +1,147 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+}
+
+.login__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__item {
+    flex: 0 0 50%;
+}
+
+.login__item_bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.login__item_bg {
+    max-width: 100%;
+    display: flex;
+}
+
+.login__item_f {
+    padding: 0 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login_title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #090914;
+    margin-bottom: 25px;
+}
+
+.login_title span {
+    font-size: 24px;
+    color: #E65100;
+}
+
+.form_line {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.login__label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0A0A0A;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.form__l {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__l a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0A0A0A;
+
+}
+
+.form__sub {
+    height: 40px;
+    background: #FF0052;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.login__redirectReg {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0A0A0A;
+}
+
+.login__redirectReg span {
+    color: #FF0052;
+}
+
+.login__textSecret {
+    font-weight: 400;
+font-size: 16px;
+color: #0A0A0A;
+position: relative;
+text-align: center;
+}
+
+.login__textSecret::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background: #C2C2C2;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.login__textSecret::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background: #C2C2C2;
+    position: absolute;
+    right: 0;;
+    top: 50%;
+}

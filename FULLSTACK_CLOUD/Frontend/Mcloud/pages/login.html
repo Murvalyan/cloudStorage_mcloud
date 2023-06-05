@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <main class="main">
+            <section class="login">
+                    <div class="login__content">
+                        <div class="login__item login__item_bg">
+                            <img src="../img/form.png" alt="cloud">
+                        </div>
+                        <div class="login__item login__item_f">
+                            <h1 class="login_title">Войдите в <span>M</span>Cloud</h1>
+                            <form action="" method="post">
+                                <div class="form_line">
+                                    <label for="Email" class="login__label">Введите ваш Email</label>
+                                    <input type="email" class="form__input" name="email" id="Email">
+                                </div>
+                                <div class="form_line">
+                                    <div class="form__l">
+                                        <label for="Pass" class="login__label">Введите ваш пароль</label>
+                                        <a href="#">Потеряли свой пароль?</a>
+                                    </div>
+                                    <input type="password" class="form__input" name="password" id="Pass">
+                                </div>
+                                <div class="form_line">
+                                    <label for="Sec" class="login__label">Введите ваш секретный ключ</label>
+                                    <input type="password" class="form__input" name="secret" id="Sec">
+                                </div>
+                                <div class="form_line">
+                                    <input type="submit" class="form__sub" id="Sec" value="Создать аккаунт">
+                                </div>
+                                <a href="./reg.html" class="login__redirectReg">Не участник? <span>Зарегистрируйтесь сейчас!</span></a>
+                            </form>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
